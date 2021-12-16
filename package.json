@@ -1,6 +1,14 @@
 {
   "name": "monorepo-workspace",
   "version": "1.0.0",
-  "private": true, 
-  "license": "MIT"
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "husky": "^7.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
 }
